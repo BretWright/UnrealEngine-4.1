@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\MyGuardian.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{C7FFC780-9B9B-4D23-983A-DAD312689D4B}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\MyGuardian.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\MyGuardianEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{78722141-7F6B-42EC-9F11-86CAD662FE63}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\MyGuardian">
+			<UniqueIdentifier>{542B6277-B17C-4A5A-B66F-FF476F3DC6FE}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\MyGuardian\HelloWorldPrinter.cpp">
+			<Filter>Source\MyGuardian</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MyGuardian\HelloWorldPrinter.h">
+			<Filter>Source\MyGuardian</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\MyGuardian\MyGuardian.Build.cs">
+			<Filter>Source\MyGuardian</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\MyGuardian\MyGuardian.cpp">
+			<Filter>Source\MyGuardian</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MyGuardian\MyGuardian.h">
+			<Filter>Source\MyGuardian</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\MyGuardian\MyHUD.cpp">
+			<Filter>Source\MyGuardian</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MyGuardian\MyHUD.h">
+			<Filter>Source\MyGuardian</Filter>
+		</ClInclude >
+		<Filter Include="Source\MyGuardian\Resources">
+			<UniqueIdentifier>{376DAAF7-BB19-43F5-875D-4BB7C17A6B94}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\MyGuardian\Resources\Windows">
+			<UniqueIdentifier>{374F3752-E6F7-4EDF-87A4-18B542A08F1D}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\MyGuardian\Resources\Windows\MyGuardian.ico">
+			<Filter>Source\MyGuardian\Resources\Windows</Filter>
+		</None >
+		<ResourceCompile Include="..\..\Source\MyGuardian\Resources\Windows\MyGuardian.rc">
+			<Filter>Source\MyGuardian\Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>

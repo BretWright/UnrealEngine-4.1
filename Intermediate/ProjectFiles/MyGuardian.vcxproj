@@ -1,0 +1,1139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup Label="ProjectConfigurations">
+		<ProjectConfiguration Include="Debug_Game|Win32">
+			<Configuration>Debug_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Debug_Game|x64">
+			<Configuration>Debug_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Debug_Editor|Win32">
+			<Configuration>Debug_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Debug_Editor|x64">
+			<Configuration>Debug_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Debug_Game|Win32">
+			<Configuration>Mac_Debug_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Debug_Game|x64">
+			<Configuration>Mac_Debug_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Debug_Editor|Win32">
+			<Configuration>Mac_Debug_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Debug_Editor|x64">
+			<Configuration>Mac_Debug_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Debug_Game|Win32">
+			<Configuration>IOS_Debug_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Debug_Game|x64">
+			<Configuration>IOS_Debug_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Debug_Editor|Win32">
+			<Configuration>IOS_Debug_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Debug_Editor|x64">
+			<Configuration>IOS_Debug_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Debug_Game|Win32">
+			<Configuration>WinRT_Debug_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Debug_Game|x64">
+			<Configuration>WinRT_Debug_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Debug_Editor|Win32">
+			<Configuration>WinRT_Debug_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Debug_Editor|x64">
+			<Configuration>WinRT_Debug_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="DebugGame_Game|Win32">
+			<Configuration>DebugGame_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="DebugGame_Game|x64">
+			<Configuration>DebugGame_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="DebugGame_Editor|Win32">
+			<Configuration>DebugGame_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="DebugGame_Editor|x64">
+			<Configuration>DebugGame_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_DebugGame_Game|Win32">
+			<Configuration>Mac_DebugGame_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_DebugGame_Game|x64">
+			<Configuration>Mac_DebugGame_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_DebugGame_Editor|Win32">
+			<Configuration>Mac_DebugGame_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_DebugGame_Editor|x64">
+			<Configuration>Mac_DebugGame_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_DebugGame_Game|Win32">
+			<Configuration>IOS_DebugGame_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_DebugGame_Game|x64">
+			<Configuration>IOS_DebugGame_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_DebugGame_Editor|Win32">
+			<Configuration>IOS_DebugGame_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_DebugGame_Editor|x64">
+			<Configuration>IOS_DebugGame_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_DebugGame_Game|Win32">
+			<Configuration>WinRT_DebugGame_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_DebugGame_Game|x64">
+			<Configuration>WinRT_DebugGame_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_DebugGame_Editor|Win32">
+			<Configuration>WinRT_DebugGame_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_DebugGame_Editor|x64">
+			<Configuration>WinRT_DebugGame_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Game|Win32">
+			<Configuration>Development_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Game|x64">
+			<Configuration>Development_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Editor|Win32">
+			<Configuration>Development_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Editor|x64">
+			<Configuration>Development_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Development_Game|Win32">
+			<Configuration>Mac_Development_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Development_Game|x64">
+			<Configuration>Mac_Development_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Development_Editor|Win32">
+			<Configuration>Mac_Development_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Development_Editor|x64">
+			<Configuration>Mac_Development_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Development_Game|Win32">
+			<Configuration>IOS_Development_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Development_Game|x64">
+			<Configuration>IOS_Development_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Development_Editor|Win32">
+			<Configuration>IOS_Development_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Development_Editor|x64">
+			<Configuration>IOS_Development_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Development_Game|Win32">
+			<Configuration>WinRT_Development_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Development_Game|x64">
+			<Configuration>WinRT_Development_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Development_Editor|Win32">
+			<Configuration>WinRT_Development_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Development_Editor|x64">
+			<Configuration>WinRT_Development_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Shipping_Game|Win32">
+			<Configuration>Shipping_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Shipping_Game|x64">
+			<Configuration>Shipping_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Shipping_Game|Win32">
+			<Configuration>Mac_Shipping_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Shipping_Game|x64">
+			<Configuration>Mac_Shipping_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Shipping_Game|Win32">
+			<Configuration>IOS_Shipping_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Shipping_Game|x64">
+			<Configuration>IOS_Shipping_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Shipping_Game|Win32">
+			<Configuration>WinRT_Shipping_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Shipping_Game|x64">
+			<Configuration>WinRT_Shipping_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Test_Game|Win32">
+			<Configuration>Test_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Test_Game|x64">
+			<Configuration>Test_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Test_Game|Win32">
+			<Configuration>Mac_Test_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Test_Game|x64">
+			<Configuration>Mac_Test_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Test_Game|Win32">
+			<Configuration>IOS_Test_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Test_Game|x64">
+			<Configuration>IOS_Test_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Test_Game|Win32">
+			<Configuration>WinRT_Test_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="WinRT_Test_Game|x64">
+			<Configuration>WinRT_Test_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\MyGuardian.uproject" />
+		<None Include="..\..\Source\MyGuardian.Target.cs" />
+		<None Include="..\..\Source\MyGuardianEditor.Target.cs" />
+		<None Include="..\..\Config\DefaultEngine.ini" />
+		<None Include="..\..\Config\DefaultGame.ini" />
+		<ClCompile Include="..\..\Source\MyGuardian\HelloWorldPrinter.cpp" />
+		<ClInclude Include="..\..\Source\MyGuardian\HelloWorldPrinter.h" />
+		<None Include="..\..\Source\MyGuardian\MyGuardian.Build.cs" />
+		<ClCompile Include="..\..\Source\MyGuardian\MyGuardian.cpp" />
+		<ClInclude Include="..\..\Source\MyGuardian\MyGuardian.h" />
+		<ClCompile Include="..\..\Source\MyGuardian\MyHUD.cpp" />
+		<ClInclude Include="..\..\Source\MyGuardian\MyHUD.h" />
+		<None Include="..\..\Source\MyGuardian\Resources\Windows\MyGuardian.ico" />
+		<ResourceCompile Include="..\..\Source\MyGuardian\Resources\Windows\MyGuardian.rc" />
+	</ItemGroup>
+	<PropertyGroup Label="Globals">
+		<ProjectGuid>{A8962948-6B47-4A83-A7B1-B984327DAE51}</ProjectGuid>
+		<Keyword>MakeFileProj</Keyword>
+		<RootNamespace>MyGuardian</RootNamespace>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_DebugGame_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_DebugGame_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Shipping_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Test_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v120</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Test_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v110</PlatformToolset>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+	<ImportGroup Label="ExtensionSettings" />
+	<PropertyGroup Label="UserMacros" />
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Build.bat" MyGuardian Win32 Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Rebuild.bat" MyGuardian Win32 Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Clean.bat" MyGuardian Win32 Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win32\MyGuardian-Win32-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Build.bat" MyGuardianEditor Win32 Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Rebuild.bat" MyGuardianEditor Win32 Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Clean.bat" MyGuardianEditor Win32 Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Binaries\Win32\UE4Editor-Win32-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Build.bat" MyGuardian Win64 Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Rebuild.bat" MyGuardian Win64 Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Clean.bat" MyGuardian Win64 Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win64\MyGuardian-Win64-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Build.bat" MyGuardianEditor Win64 Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Rebuild.bat" MyGuardianEditor Win64 Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Clean.bat" MyGuardianEditor Win64 Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Binaries\Win64\UE4Editor-Win64-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Build.bat" MyGuardian Mac Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Rebuild.bat" MyGuardian Mac Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Clean.bat" MyGuardian Mac Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Mac\MyGuardian-Mac-Debug</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Editor|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Build.bat" MyGuardianEditor Mac Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Rebuild.bat" MyGuardianEditor Mac Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Clean.bat" MyGuardianEditor Mac Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Binaries\Mac\UE4Editor-Mac-Debug</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Build.bat" MyGuardian IOS Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Rebuild.bat" MyGuardian IOS Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Clean.bat" MyGuardian IOS Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\IOS\MyGuardian-IOS-Debug</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Debug_Editor|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Build.bat" MyGuardianEditor IOS Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Rebuild.bat" MyGuardianEditor IOS Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Clean.bat" MyGuardianEditor IOS Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Binaries\IOS\MyGuardianEditor-IOS-Debug</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Build.bat" MyGuardian WinRT Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Rebuild.bat" MyGuardian WinRT Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Clean.bat" MyGuardian WinRT Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\WinRT\MyGuardian-WinRT-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Editor|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Build.bat" MyGuardianEditor WinRT Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Rebuild.bat" MyGuardianEditor WinRT Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Clean.bat" MyGuardianEditor WinRT Debug "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Binaries\WinRT\MyGuardianEditor-WinRT-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Build.bat" MyGuardian Win32 DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Rebuild.bat" MyGuardian Win32 DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Clean.bat" MyGuardian Win32 DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win32\MyGuardian-Win32-DebugGame.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Build.bat" MyGuardianEditor Win32 DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Rebuild.bat" MyGuardianEditor Win32 DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Clean.bat" MyGuardianEditor Win32 DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Binaries\Win32\UE4Editor.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Build.bat" MyGuardian Win64 DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Rebuild.bat" MyGuardian Win64 DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Clean.bat" MyGuardian Win64 DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win64\MyGuardian-Win64-DebugGame.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Build.bat" MyGuardianEditor Win64 DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Rebuild.bat" MyGuardianEditor Win64 DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Clean.bat" MyGuardianEditor Win64 DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Binaries\Win64\UE4Editor.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Build.bat" MyGuardian Mac DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Rebuild.bat" MyGuardian Mac DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Clean.bat" MyGuardian Mac DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Mac\MyGuardian-Mac-DebugGame</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Editor|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Build.bat" MyGuardianEditor Mac DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Rebuild.bat" MyGuardianEditor Mac DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Clean.bat" MyGuardianEditor Mac DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Binaries\Mac\UE4Editor</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Build.bat" MyGuardian IOS DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Rebuild.bat" MyGuardian IOS DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Clean.bat" MyGuardian IOS DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\IOS\MyGuardian-IOS-DebugGame</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Editor|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Build.bat" MyGuardianEditor IOS DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Rebuild.bat" MyGuardianEditor IOS DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Clean.bat" MyGuardianEditor IOS DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Binaries\IOS\MyGuardianEditor-IOS-DebugGame</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_DebugGame_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_DebugGame_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Build.bat" MyGuardian WinRT DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Rebuild.bat" MyGuardian WinRT DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Clean.bat" MyGuardian WinRT DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\WinRT\MyGuardian-WinRT-DebugGame.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_DebugGame_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_DebugGame_Editor|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Build.bat" MyGuardianEditor WinRT DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Rebuild.bat" MyGuardianEditor WinRT DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Clean.bat" MyGuardianEditor WinRT DebugGame "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Binaries\WinRT\MyGuardianEditor-WinRT-DebugGame.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Build.bat" MyGuardian Win32 Development "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Rebuild.bat" MyGuardian Win32 Development "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Clean.bat" MyGuardian Win32 Development "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win32\MyGuardian.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Build.bat" MyGuardianEditor Win32 Development "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Rebuild.bat" MyGuardianEditor Win32 Development "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Clean.bat" MyGuardianEditor Win32 Development "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Binaries\Win32\UE4Editor.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Build.bat" MyGuardian Win64 Development "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Rebuild.bat" MyGuardian Win64 Development "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Clean.bat" MyGuardian Win64 Development "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win64\MyGuardian.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Build.bat" MyGuardianEditor Win64 Development "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Rebuild.bat" MyGuardianEditor Win64 Development "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Clean.bat" MyGuardianEditor Win64 Development "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Binaries\Win64\UE4Editor.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Build.bat" MyGuardian Mac Development "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Rebuild.bat" MyGuardian Mac Development "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Clean.bat" MyGuardian Mac Development "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Mac\MyGuardian</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Editor|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Build.bat" MyGuardianEditor Mac Development "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Rebuild.bat" MyGuardianEditor Mac Development "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Clean.bat" MyGuardianEditor Mac Development "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Binaries\Mac\UE4Editor</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Build.bat" MyGuardian IOS Development "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Rebuild.bat" MyGuardian IOS Development "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Clean.bat" MyGuardian IOS Development "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\IOS\MyGuardian</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Editor|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Build.bat" MyGuardianEditor IOS Development "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Rebuild.bat" MyGuardianEditor IOS Development "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Clean.bat" MyGuardianEditor IOS Development "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Binaries\IOS\MyGuardianEditor</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Build.bat" MyGuardian WinRT Development "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Rebuild.bat" MyGuardian WinRT Development "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Clean.bat" MyGuardian WinRT Development "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\WinRT\MyGuardian.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Editor|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Build.bat" MyGuardianEditor WinRT Development "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Rebuild.bat" MyGuardianEditor WinRT Development "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Clean.bat" MyGuardianEditor WinRT Development "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Binaries\WinRT\MyGuardianEditor.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Build.bat" MyGuardian Win32 Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Rebuild.bat" MyGuardian Win32 Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Clean.bat" MyGuardian Win32 Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win32\MyGuardian-Win32-Shipping.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Build.bat" MyGuardian Win64 Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Rebuild.bat" MyGuardian Win64 Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Clean.bat" MyGuardian Win64 Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win64\MyGuardian-Win64-Shipping.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Build.bat" MyGuardian Mac Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Rebuild.bat" MyGuardian Mac Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Clean.bat" MyGuardian Mac Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Mac\MyGuardian-Mac-Shipping</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Build.bat" MyGuardian IOS Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Rebuild.bat" MyGuardian IOS Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Clean.bat" MyGuardian IOS Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\IOS\MyGuardian-IOS-Shipping</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Shipping_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Shipping_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Build.bat" MyGuardian WinRT Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Rebuild.bat" MyGuardian WinRT Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Clean.bat" MyGuardian WinRT Shipping "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\WinRT\MyGuardian-WinRT-Shipping.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Build.bat" MyGuardian Win32 Test "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Rebuild.bat" MyGuardian Win32 Test "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Clean.bat" MyGuardian Win32 Test "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win32\MyGuardian-Win32-Test.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Game|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Game|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Build.bat" MyGuardian Win64 Test "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Rebuild.bat" MyGuardian Win64 Test "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Clean.bat" MyGuardian Win64 Test "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win64\MyGuardian-Win64-Test.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Build.bat" MyGuardian Mac Test "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Rebuild.bat" MyGuardian Mac Test "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Clean.bat" MyGuardian Mac Test "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Mac\MyGuardian-Mac-Test</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Test_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Test_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Build.bat" MyGuardian IOS Test "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Rebuild.bat" MyGuardian IOS Test "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Clean.bat" MyGuardian IOS Test "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\IOS\MyGuardian-IOS-Test</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Test_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Test_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Build.bat" MyGuardian WinRT Test "$(SolutionDir)$(SolutionName).uproject"</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Rebuild.bat" MyGuardian WinRT Test "$(SolutionDir)$(SolutionName).uproject"</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Build\BatchFiles\Clean.bat" MyGuardian WinRT Test "$(SolutionDir)$(SolutionName).uproject"</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\WinRT\MyGuardian-WinRT-Test.exe</NMakeOutput>
+	</PropertyGroup>
+	<PropertyGroup>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);UE_GAME=1;IS_PROGRAM=0;UE_ROCKET=0;UNICODE;_UNICODE;__UNREAL__;IS_MONOLITHIC=1;WITH_ENGINE=1;WITH_UNREAL_DEVELOPER_TOOLS=1;WITH_COREUOBJECT=1;USE_STATS_WITHOUT_ENGINE=0;WITH_PLUGIN_SUPPORT=0;USE_LOGGING_IN_SHIPPING=0;UE_BUILD_MINIMAL=1;WITH_EDITOR=1;WITH_EDITORONLY_DATA=0;WITH_SERVER_CODE=1;UBT_COMPILED_PLATFORM=Win64;WIN32=1;_WIN32_WINNT=0x0600;WINVER=0x0600;PLATFORM_WINDOWS=1;NDEBUG=1;UE_BUILD_DEVELOPMENT=1;UE_ENGINE_DIRECTORY=../../../../GitHub/UnrealEngine-4.1/Engine/;ORIGINAL_FILE_NAME="MyGuardian.exe";MYGUARDIAN_API=;UE_ENABLE_ICU=1;WITH_STEAMWORKS=0;WITH_VS_PERF_PROFILER=1;WITH_DIRECTXMATH=0;CORE_API=;COREUOBJECT_API=;WITH_PHYSX=1;WITH_APEX=1;WITH_RECAST=1;WITH_SPEEDTREE=0;ENGINE_API=;SLATE_API=;INPUTCORE_API=;MESSAGING_API=;NETWORKING_API=;SOCKETS_PACKAGE=1;SOCKETS_API=;RENDERCORE_API=;RHI_API=;SHADERCORE_API=;ASSETREGISTRY_API=;ENGINEMESSAGES_API=;ENGINESETTINGS_API=;SYNTHBENCHMARK_API=;RENDERER_API=;UE_EDITOR=1;USE_NETWORK_PROFILER=1;WITH_SIMPLYGON=0;UNREALED_API=;BSPMODE_API=;DOCUMENTATION_API=;PROJECTS_API=;SANDBOXFILE_API=;EDITORSTYLE_API=;SOURCECONTROL_API=;UNREALEDMESSAGES_API=;XAUDIO2_API=;USERFEEDBACK_API=;COLLECTIONMANAGER_API=</NMakePreprocessorDefinitions>
+		<NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source;..\..\Source;..\Build\Win64\MyGuardian\Inc\MyGuardian;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Core\Public;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Core\Public\Internationalization;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Core\Public\Async;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Core\Public\Concurrency;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Core\Public\Containers;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Core\Public\GenericPlatform;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Core\Public\HAL;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Core\Public\Math;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Core\Public\Misc;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Core\Public\Modules;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Core\Public\ProfilingDebugging;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Core\Public\Serialization;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Core\Public\Serialization\Json;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Core\Public\Stats;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Core\Public\Templates;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Core\Public\UObject;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Core\Public\Windows;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\CoreUObject\Classes;..\Build\Win64\MyGuardian\Inc\CoreUObject;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\CoreUObject\Public;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\CoreUObject\Public\Blueprint;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\CoreUObject\Public\Misc;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\CoreUObject\Public\Serialization;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\CoreUObject\Public\Templates;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\CoreUObject\Public\UObject;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Engine\Classes;..\Build\Win64\MyGuardian\Inc\Engine;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Engine\Public;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Engine\Public\AI;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Engine\Public\Landscape;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Engine\Public\Net;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Engine\Public\Slate;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Slate\Classes;..\Build\Win64\MyGuardian\Inc\Slate;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Slate\Public;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Slate\Public\Docking;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Slate\Public\DockingFramework;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Slate\Public\IOS;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Slate\Public\MultiBox;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Slate\Public\TableView;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Slate\Public\Testing;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Slate\Public\Text;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Slate\Public\TutorialSystem;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\InputCore\Classes;..\Build\Win64\MyGuardian\Inc\InputCore;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\InputCore\Public;..\Build\Win64\MyGuardian\Inc\Messaging;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Messaging\Public;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Messaging\Public\Common;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Messaging\Public\Interfaces;..\Build\Win64\MyGuardian\Inc\Networking;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Networking\Public;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Networking\Public\Common;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Networking\Public\Interfaces;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Networking\Public\Interfaces\IPv4;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Networking\Public\Interfaces\Steam;..\Build\Win64\MyGuardian\Inc\Sockets;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Sockets\Public;..\Build\Win64\MyGuardian\Inc\RenderCore;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\RenderCore\Public;..\Build\Win64\MyGuardian\Inc\RHI;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\RHI\Public;..\Build\Win64\MyGuardian\Inc\ShaderCore;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\ShaderCore\Public;..\Build\Win64\MyGuardian\Inc\AssetRegistry;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\AssetRegistry\Public;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\EngineMessages\Classes;..\Build\Win64\MyGuardian\Inc\EngineMessages;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\EngineMessages\Public;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\EngineSettings\Classes;..\Build\Win64\MyGuardian\Inc\EngineSettings;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\EngineSettings\Public;..\Build\Win64\MyGuardian\Inc\SynthBenchmark;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Developer\SynthBenchmark\Public;..\Build\Win64\MyGuardian\Inc\Renderer;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Renderer\Public;..\Build\Win64\Inc\MyGuardian;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Intermediate\Build\Win64\Inc\CoreUObject;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Intermediate\Build\Win64\Inc\Engine;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Intermediate\Build\Win64\Inc\Slate;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Intermediate\Build\Win64\Inc\InputCore;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Intermediate\Build\Win64\Inc\Messaging;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Intermediate\Build\Win64\Inc\Networking;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Intermediate\Build\Win64\Inc\Sockets;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Intermediate\Build\Win64\Inc\RenderCore;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Intermediate\Build\Win64\Inc\RHI;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Intermediate\Build\Win64\Inc\ShaderCore;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Intermediate\Build\Win64\Inc\AssetRegistry;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Intermediate\Build\Win64\Inc\EngineMessages;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Intermediate\Build\Win64\Inc\EngineSettings;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Intermediate\Build\Win64\Inc\SynthBenchmark;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Intermediate\Build\Win64\Inc\Renderer;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Programs\UnrealLightmass\Public;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Editor\UnrealEd\Classes;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Intermediate\Build\Win64\Inc\UnrealEd;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Editor\UnrealEd\Public;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Editor\UnrealEd\Public\Commandlets;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Editor\UnrealEd\Public\Dialogs;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Editor\UnrealEd\Public\DragAndDrop;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Editor\UnrealEd\Public\Features;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Editor\UnrealEd\Public\Kismet2;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Editor\UnrealEd\Public\Layers;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Editor\UnrealEd\Public\Toolkits;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Intermediate\Build\Win64\Inc\BspMode;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Editor\BspMode\Public;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Intermediate\Build\Win64\Inc\Documentation;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Editor\Documentation\Public;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Intermediate\Build\Win64\Inc\Projects;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Projects\Public;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Projects\Public\Interfaces;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Intermediate\Build\Win64\Inc\SandboxFile;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\SandboxFile\Public;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Intermediate\Build\Win64\Inc\EditorStyle;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Editor\EditorStyle\Public;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Editor\EditorStyle\Public\Classes;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Editor\EditorStyle\Public\Interfaces;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Intermediate\Build\Win64\Inc\SourceControl;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Developer\SourceControl\Public;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Editor\UnrealEdMessages\Classes;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Intermediate\Build\Win64\Inc\UnrealEdMessages;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Editor\UnrealEdMessages\Public;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Intermediate\Build\Win64\Inc\XAudio2;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Runtime\Windows\XAudio2\Public;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Intermediate\Build\Win64\Inc\UserFeedback;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Editor\UserFeedback\Public;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Intermediate\Build\Win64\Inc\CollectionManager;C:\Users\The Guardian\Documents\GitHub\UnrealEngine-4.1\Engine\Source\Developer\CollectionManager\Public;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\8.1\include\shared;C:\Program Files (x86)\Windows Kits\8.1\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\winrt;;</NMakeIncludeSearchPath>
+		<NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+	</PropertyGroup>
+	<ItemDefinitionGroup>
+	</ItemDefinitionGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+	<ImportGroup Label="ExtensionTargets">
+	</ImportGroup>
+</Project>
